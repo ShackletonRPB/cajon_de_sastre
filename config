@@ -1,0 +1,60 @@
+[profile GlobalSysOps]
+sso_session = gft-cip-session
+sso_account_id = 992382637588
+sso_role_name = GlobalSysOps
+region = eu-west-1
+output = json
+
+[sso-session gft-cip-session]
+sso_start_url = https://cybercto.awsapps.com/start/#
+sso_region = eu-west-1
+sso_registration_scopes = sso:account:access
+
+[default]
+#sso_account_id = 891377131931
+#sso_role_name = SysOps
+region = eu-west-1
+output = json
+#sso_start_url = https://d-936765ca09.awsapps.com/start/#
+#sso_region = eu-west-1
+#sso_registration_scopes = sso:account:access
+
+[profile cidpdev]
+sso_account_id = 891377131931
+sso_role_name = SysOps
+region = eu-west-1
+output = json
+# sso_start_url = https://d-936765ca09.awsapps.com/start/#
+sso_start_url = https://d-91671dcadc.awsapps.com/start/#
+sso_region = us-west-1
+# sso_region = eu-west-1
+sso_registration_scopes = sso:account:access
+
+[profile cidpcer]
+sso_account_id = 539247452754
+sso_role_name = SysOps
+region = eu-west-1
+output = json
+sso_start_url =  https://d-91671dcadc.awsapps.com/start/#
+# sso_start_url = https://d-936765ca09.awsapps.com/start/#
+sso_region = us-west-1
+# sso_region = eu-west-1
+sso_registration_scopes = sso:account:access
+
+[profile cidpdep-sysops]
+sso_account_id = 982534381498
+sso_role_name = SysOps
+region = eu-west-1
+output = json
+sso_start_url = https://d-936765ca09.awsapps.com/start/#
+sso_region = eu-west-1
+sso_registration_scopes = sso:account:access
+
+[profile cidpdep]
+sso_account_id = 982534381498
+sso_role_name = SysOpsPro
+region = eu-west-1
+output = json
+sso_start_url = https://d-936765ca09.awsapps.com/start/#
+sso_region = eu-west-1
+sso_registration_scopes = sso:account:access
